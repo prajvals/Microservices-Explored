@@ -3,7 +3,6 @@ package com.example.departmentmicroservice.controller;
 import com.example.departmentmicroservice.entity.Department;
 import com.example.departmentmicroservice.service.DepartmentService;
 import lombok.extern.slf4j.Slf4j;
-import lombok.extern.slf4j.XSlf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

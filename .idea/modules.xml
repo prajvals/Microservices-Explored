@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring Boot Microservice project.iml" filepath="$PROJECT_DIR$/.idea/Spring Boot Microservice project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/department-microservice/department-microservice.iml" filepath="$PROJECT_DIR$/department-microservice/department-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-microservice/user-microservice.iml" filepath="$PROJECT_DIR$/user-microservice/user-microservice.iml" />
+    </modules>
+  </component>
+</project>
