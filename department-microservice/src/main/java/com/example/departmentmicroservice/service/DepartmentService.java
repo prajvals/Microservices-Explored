@@ -13,6 +13,11 @@ public class DepartmentService {
     @Autowired
     private DepartmentRepository departmentRepository;
 
+    public Department findDepartmentById(Long departmentId) {
+        log.info("inside the service layer function findByDepartmentId");
+        return departmentRepository.findById(departmentId).get();
+    }
+
     public Department saveDepartment(Department department) {
         log.info("Inside the service function save department");
        return departmentRepository.save(department);

@@ -5,10 +5,7 @@ import com.example.departmentmicroservice.service.DepartmentService;
 import lombok.extern.slf4j.Slf4j;
 import lombok.extern.slf4j.XSlf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/departments")
@@ -23,6 +20,13 @@ public class DepartmentController {
     {
         log.info("Inside department of the department Controller");
         return departmentService.saveDepartment(department);
+    }
+
+    @GetMapping("/{id}")
+    public Department findDepartmentById(@PathVariable("id") Long departmentId)
+    {
+        log.info("Inside the controller layer findDepartmentById function");
+        return departmentService.findDepartmentById(departmentId);
     }
 
 }
