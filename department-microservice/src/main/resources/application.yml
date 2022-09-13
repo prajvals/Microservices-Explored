@@ -1,6 +1,10 @@
 server:
   port: 9001
 
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+
 eureka:
   client:
     register-with-eureka: true
