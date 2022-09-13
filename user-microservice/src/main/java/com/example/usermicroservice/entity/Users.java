@@ -17,7 +17,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Builder
 @Slf4j
-public class User {
+public class Users {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
