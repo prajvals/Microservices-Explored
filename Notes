@@ -1,0 +1,25 @@
+Here I will explain the whole flow and what i got out of it
+
+1. see we have the multiple microservices
+2. but we cant remember the names of them
+3. hence we register them with the eureka service registry
+4. there are required configurations for making the service registry and in that sense
+5. the service registry is also a microservice
+6. there is annotation that is added and there are xml application.yml files edited for it alright
+7. now to connect with the service registry, we add the eureka client depenedency
+8. and this client dependency is something that will go in all the services which are part of this project
+9. now, when we are making the request we wont be specifying the exact url rather what we would do
+10. is actually that we will make the request and in that request we would be using the name of the service that we need
+11. now this is fine, as long as we are making the requests from microservices
+12. but when we are making requests from outside, then we dont have the facility of the server registry
+13. and also this is a lil understanding here
+14. see when we are making or having a microservice it may be hosted on multiple different ports
+15. where and which port to be used is done by the eureka service registry and it keeps a register of all the nodes and all the services running that registry
+16. but while that is there, when someone from outside calls the service we need to expose only a certain number of apis
+17. or certain api's these apis are the ones that will be called and then our service or gate way will take those
+18. it will route them to the required node using the service registry
+19. I have this doubt of why we are using two different services, can't api gateway also act as service discovery and take requests from outside
+20. perhaps for that I would need to read about these a lil bit more
+21. now we have the apis failing for which we will use hystric which will act as the fault tolerant mechanisms alright yeah
+22. and after that we have used the config service to fetch the common configurations stored online and then other services are configured to use this service to get that common service
+23. then we have used zipler and sleuth to actually track the differnt directions where the flow of the code is going
