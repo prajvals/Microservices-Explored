@@ -16,6 +16,8 @@
 
 ## STEPS TO RUN 
 
-1. Clone the repo, and open in IntellJ Idea, or 
+1. Clone the repo, and open in IntellJ Idea, or any preferred Ide.
+
+2. Start With running the Service Registry Service First, as this Service acts as the Eureka Server
 
  
