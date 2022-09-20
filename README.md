@@ -20,6 +20,8 @@
 
 2. Start With running the Service Registry Service First, as this Service acts as the Eureka Server
 
-3. After this Start the Config Server, this service Fetches Configurations from Github, and is used by other service to connect to the Eureka Server
+3. After this Start the Config Server, this service Fetches Configurations from Github, and is used by other service to connect to the Eureka Server.
+
+4. Start the Gateway Service, User Service, Department Service
 
  
