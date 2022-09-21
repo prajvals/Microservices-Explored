@@ -22,6 +22,6 @@
 
 3. After this Start the Config Server, this service Fetches Configurations from Github, and is used by other service to connect to the Eureka Server.
 
-4. Start the Gateway Service, User Service, Department Service
+4. Start the Gateway Service, User Service, Department Service.
 
  
