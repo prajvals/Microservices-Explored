@@ -1,6 +1,6 @@
-# MICROSERVICES-EXPLORED
+# MICROSERVICES - EXPLORED
 
-1. A SpringBoot Project, made with the intention to learn all the major features of the Framework.
+1. A Microservices Project, Developed with Spring Boot, Eureka services, built with Curiosity and learning about this Architecture Design.
 
 2. Tech Used: **Spring Boot**, **Java**, **PostMan**, **Eureka Service Registry**, **Eureka Client**, **Zipkin And Sleuth**,**MySQL**, Lombok.
 
