@@ -24,20 +24,17 @@
     4. MySQL database.
     5. Github for Version Control.
     6. Lombok Library for AutoCode Generation
-    7. Loggers.
-    8. PostMan.
-    9. Spring Boot.
-    10. Maven Dependency Manager
-    11. Java 8
-
+    7. PostMan.
+    8. Maven Dependency Manager
+    
 
 ## STEPS TO RUN 
 
-1. Clone the repo, and open in IntellJ Idea, or any preferred Ide.
+1. Clone the repo, and open in IntellJ Idea, or any preferred IDE.
 2. Start With running the Service Registry Service First, as this Service acts as the Eureka Server
-3. After this Start the Config Server, this service Fetches Configurations from Github, and is used by other service to connect to the Eureka Server.
+3. After this Start the Config Server, this service Fetches Configurations from Github of Eureka Clients ( was used by every service hence extracted out and made a service out of it) , and is used by other service to connect to the Eureka Server.
 4. Start the Gateway Service, User Service, Department Service.
-5. Hit the API using Postman.
+5. Hit the API using Postman or IntellJ idea's inbuilt API Manager.
  
  ## LEARNINGS AND EXPERIENCE.
  
