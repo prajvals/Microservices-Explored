@@ -16,7 +16,7 @@
      - Cross Services Interactions
      - Centralised Configurations Service to store Eureka Client Configurations to connect to Eureka Server.
      
-4. Tech Used: 
+4. Tools Used: 
     
     1. IntellJ idea Ultimate Edition.
     2. Eureka Service Discovery
@@ -43,10 +43,11 @@
  
  The Project was a good learning exercise that helped understand:
  
- 1. How Spring Boot Works
+ 1. How Spring Boot Works.
  2. How Microservices Architecture Works.
- 3. How Cross Services Communication Works
- 4. How API Gateway.
- 5. How To Structure Spring Boot Applications.
- 6. How to Connect to Database using Spring Boot.
+ 3. How Cross Services Communication Works.
+ 4. How API Gateway works.
+ 5. How Distributed Logging Works.
+ 6. How To Structure Spring Boot Applications.
+ 7. How to Connect to Database using Spring Boot.
 
