@@ -2,7 +2,7 @@
 
 1. A Microservices Project, Developed with Spring Boot, Eureka services, built with Curiosity and learning about this Architecture Design.
 
-2. Tech Used: **Spring Boot**, **Java**, **PostMan**, **Eureka Service Registry**, **Eureka Client**, **Zipkin And Sleuth**,**MySQL**, Lombok.
+2. Tech Used: **Spring Boot**, **Java**, **PostMan**, **Eureka Service Registry**, **Eureka Client**, **Zipkin And Sleuth**, **MySQL**, Lombok.
 
 3. Prominent Features Include: 
 
